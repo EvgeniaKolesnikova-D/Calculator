@@ -1,0 +1,74 @@
+body {
+    font-size: 2.5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 10%;
+    left: 40%;
+    margin: 0 auto;
+    background-color: rgba(241, 207, 150, 0.636);
+}
+
+h1 {
+    color: rgba(90, 42, 3, 0.952);
+    text-align: center;
+    margin: 0;
+}
+
+#calculator {
+    width: auto;
+    height: auto;
+    padding: 1.5vh;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.linesButton {
+    display: flex;
+
+}
+
+.box {
+    text-align: right;
+    font-size: 2.8vh;
+    font-weight: bold;
+    height: 3vh;
+    padding: 1em;
+    border: solid rgba(90, 42, 3, 0.952);
+    color: rgba(90, 42, 3, 0.952);
+    background-color: rgba(247, 162, 16, 0.705);
+
+}
+
+button {
+    width: 11vh;
+    height: 8vh;
+    font-weight: bold;
+    font-size: 3vh;
+    color: rgba(90, 42, 3, 0.952);
+    background-color: rgba(247, 162, 16, 0.705);
+    border: solid rgba(90, 42, 3, 0.952);
+    margin: 10px;
+
+}
+
+button:hover {
+    background-color: rgb(73, 46, 4);
+}
+
+#remove {
+    background-image: url(./images/backspace.svg);
+    background-position: 50%, 50%;
+    background-repeat: no-repeat;
+    background-size: 1.8em;
+
+}
+
+.operator {
+    background-color: rgb(231, 168, 73);
+}
+
+.operator:hover {
+    background-color: rgb(160, 142, 11);
+}
